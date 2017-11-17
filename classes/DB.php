@@ -76,6 +76,21 @@
 			return false;
 		}
 
+		public function getAll($table){
+			$this->_error = false;
+			$sql = "SELECT * FROM {$table}";
+			if ( $this->_query = $this->_pdo->prepare($sql) ){
+				if ($this->_query->execute()){
+					$this->_results = $this->_query->fetchAll(PDO::FETCH_OBJ);
+					$this->_count = $this->_query->rowCount();
+				}
+				else
+					$this->_error = true;
+			}
+			
+			return $this;
+		}
+
 		public function get($table, $where){
 			return $this->action('SELECT *', $table, $where);
 		}
@@ -102,9 +117,40 @@
 			return false;
 		}
 
+		public function update($table, $id, $fields = array()){
+
+			$set = '';
+			$i = 1;
+			foreach ($fields as $name => $value) {
+				$set .= "{$name} = ?";
+				if ( $i < count($fields) ) {
+					$set .= ', ';
+				}
+				$i++;
+			}
+			//echo $set;
+			$sql = "UPDATE {$table} SET {$set} WHERE id = {$id}"; 
+			//echo $sql;
+			if (!$this->query($sql, $fields)->error()) {
+				return true;
+			}
+			return false;
+		}
+
+		public function delete(	$table, $id){
+			$sql = "DELETE FROM {$table} WHERE id = {$id}";
+			if(!$this->query($sql)->error())
+				return true;
+			return false;
+		}
+
+		/*
+		** Ham tra ve so luong ban ghi
+		 */
 		public function count(){
 			return $this->_count;
 		}
+
 
 		public function results(){
 			return $this->_results;
