@@ -1,11 +1,14 @@
 <?php 
-	//echo "index";
+	echo "index.php";
 	require_once 'core/init.php';
-	//print_r(DB::getInstance()->query("SELECT * FROM tbl_users"));
-	$user = DB::getInstance()->update('tbl_users', 1, array(
-			'user_name' => 'thanhvip',
-			'user_password' => 'thanhvip',
-			'user_salt' => 'salt'
-	));
+	if (Session::exists('success')) {
+		echo Session::flash('success');
+	}
 
-	DB::getInstance()->delete('tbl_users', 4);
+
+	$db = DB::getInstance();
+	$db->insert('tbl_users', array(
+		'user_name' 	=> 'admin,
+		'user_password 	=> 'admin1234',
+		'group_id' 		=> 1 
+	));

@@ -98,7 +98,8 @@
 		public function insert($table, $fields = array()){
 			// Lay ra tat ca cac key
 			$keys = array_keys($fields);
-			//print_r($keys);
+			print_r($keys);
+			die();
 			$values = '';
 			$i = 1;
 			foreach ($fields as $field) {
