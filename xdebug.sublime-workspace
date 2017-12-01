@@ -1,0 +1,1185 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"array",
+				"array\t$… = array (…)"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"mcry",
+				"mcrypt_create_iv〔function〕"
+			],
+			[
+				"sa",
+				"$salt〔variable〕"
+			],
+			[
+				"e",
+				"$e〔variable〕"
+			],
+			[
+				"get",
+				"getInstance〔function〕"
+			],
+			[
+				"_",
+				"_db〔variable〕"
+			],
+			[
+				"cla",
+				"class\tclass …"
+			],
+			[
+				"unse",
+				"unset〔keyword〕"
+			],
+			[
+				"_SE",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"token",
+				"$tokenName〔variable〕"
+			],
+			[
+				"toke",
+				"$tokenName〔variable〕"
+			],
+			[
+				"clas",
+				"class〔keyword〕"
+			],
+			[
+				"err",
+				"$error〔variable〕"
+			],
+			[
+				"valie",
+				"$validation〔variable〕"
+			],
+			[
+				"ck",
+				"$ck〔variable〕"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"arrya",
+				"array〔keyword〕"
+			],
+			[
+				"rule",
+				"rule_value"
+			],
+			[
+				"_e",
+				"_errors"
+			],
+			[
+				"echo",
+				"echo\techo \"…\""
+			],
+			[
+				"rul",
+				"$rule〔variable〕"
+			],
+			[
+				"vali",
+				"$validation〔variable〕"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"arr",
+				"$array_users〔variable〕"
+			],
+			[
+				"count",
+				"count_user"
+			],
+			[
+				"u",
+				"$users〔variable〕"
+			],
+			[
+				"Prin",
+				"print_r"
+			],
+			[
+				"que",
+				"query"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"se",
+				"$set〔variable〕"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"value",
+				"$values〔variable〕"
+			],
+			[
+				"ke",
+				"$keys〔variable〕"
+			],
+			[
+				"imp",
+				"implode〔function〕"
+			],
+			[
+				"valu",
+				"$values〔variable〕"
+			],
+			[
+				"va",
+				"$values〔variable〕"
+			],
+			[
+				"fi",
+				"$fields〔variable〕"
+			],
+			[
+				"key",
+				"$keys〔variable〕"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"ta",
+				"$table〔variable〕"
+			],
+			[
+				"op",
+				"$operators〔variable〕"
+			],
+			[
+				"wh",
+				"$where〔variable〕"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"pa",
+				"$param〔variable〕"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"PDO",
+				"PDO〔class〕"
+			],
+			[
+				"ENT",
+				"ENT_QUOTES〔constant〕"
+			],
+			[
+				"html",
+				"htmlentities〔function〕"
+			],
+			[
+				"spl_auto",
+				"spl_autoload_register〔function〕"
+			],
+			[
+				"num",
+				"$num_p〔variable〕"
+			],
+			[
+				"qu",
+				"query_p"
+			],
+			[
+				"mysqli_f",
+				"mysqli_fetch_row〔function〕"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"row",
+				"$row_p〔variable〕"
+			],
+			[
+				"sql",
+				"$sql〔variable〕"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"cat",
+				"cat_value"
+			],
+			[
+				"edi",
+				"editpost.php"
+			],
+			[
+				"bo",
+				"$body〔variable〕"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tr",
+				"$trclass〔variable〕"
+			],
+			[
+				"tdl",
+				"tdl_get_all_posts〔function〕"
+			],
+			[
+				"po",
+				"$post〔variable〕"
+			],
+			[
+				"sel",
+				"select_by_custom_id〔function〕"
+			],
+			[
+				"id",
+				"$id〔variable〕"
+			],
+			[
+				"ed",
+				"editcat.php"
+			],
+			[
+				"user",
+				"$user〔variable〕"
+			],
+			[
+				"con",
+				"config.php"
+			],
+			[
+				"U",
+				"User〔class〕"
+			],
+			[
+				"inclu",
+				"include_once〔keyword〕"
+			],
+			[
+				"da",
+				"date"
+			],
+			[
+				"title",
+				"$title〔variable〕"
+			],
+			[
+				"fil",
+				"$file_name〔variable〕"
+			],
+			[
+				"ti",
+				"$title〔variable〕"
+			],
+			[
+				"mysqli_real",
+				"mysqli_real_escape_string〔function〕"
+			],
+			[
+				"im",
+				"$img〔variable〕"
+			],
+			[
+				"include",
+				"include_once〔keyword〕"
+			],
+			[
+				"del",
+				"$delete_row〔variable〕"
+			],
+			[
+				"upda",
+				"update_row"
+			],
+			[
+				"ins",
+				"$insert_row〔variable〕"
+			],
+			[
+				"val",
+				"$value〔variable〕"
+			],
+			[
+				"mysqli_fe",
+				"mysqli_fetch_row〔function〕"
+			],
+			[
+				"dat",
+				"$data〔variable〕"
+			],
+			[
+				"session_de",
+				"session_destroy〔function〕"
+			],
+			[
+				"_se",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"pos",
+				"$post〔variable〕"
+			],
+			[
+				"side",
+				"sidebar.php"
+			],
+			[
+				"ic",
+				"inc/"
+			],
+			[
+				"post",
+				"$post〔variable〕"
+			],
+			[
+				"posts",
+				"$posts〔variable〕"
+			],
+			[
+				"while",
+				"while〔keyword〕"
+			],
+			[
+				"iame",
+				"images/"
+			],
+			[
+				"res",
+				"$result〔variable〕"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"st",
+				"$start_form〔variable〕"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"to",
+				"total_pages"
+			],
+			[
+				"mysqli_num",
+				"mysqli_num_rows〔function〕"
+			],
+			[
+				"he",
+				"href"
+			],
+			[
+				"tex",
+				"$text〔variable〕"
+			],
+			[
+				"text",
+				"$textLimit〔variable〕"
+			],
+			[
+				"te",
+				"$text〔variable〕"
+			],
+			[
+				"fm",
+				"$fm〔variable〕"
+			],
+			[
+				"strto",
+				"strtotime〔function〕"
+			],
+			[
+				"inc",
+				"inc/"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"uame",
+				"$uname〔variable〕"
+			],
+			[
+				"c",
+				"core/"
+			],
+			[
+				"m",
+				"msg"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"db",
+				"dbname〔variable〕"
+			],
+			[
+				"else",
+				"elseif〔keyword〕"
+			],
+			[
+				"whi",
+				"while〔keyword〕"
+			],
+			[
+				"dbc",
+				"$dbcon〔variable〕"
+			],
+			[
+				"td",
+				"tdl-config.php"
+			],
+			[
+				"lin",
+				"link\tTag"
+			],
+			[
+				"form-con",
+				"form-control"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "xDebug.php",
+			"settings":
+			{
+				"buffer_size": 258,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "xdebug.sublime-project",
+			"settings":
+			{
+				"buffer_size": 166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> G:\\websites\\mamp\\thanh-php-oop-cms\\xDebug.php\n\t|-| 10\n",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Windows",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 161.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/websites/mamp/thanh-php-oop-cms"
+	],
+	"file_history":
+	[
+		"/G/websites/mamp/thanh-php-oop-cms/xdebug.sublime-project",
+		"/D/Sublime Text Build 3126 x64/Data/Packages/User/Xdebug.sublime-settings",
+		"/D/Sublime Text Build 3126 x64/Data/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/D/Setup/Internet Download Manager 6.27 Build 1/Internet Download Manager 6.27 Build 1/readme.txt",
+		"/G/websites/mamp/thanh-php-oop-cms/index.php",
+		"/G/websites/mamp/thanh-php-oop-cms/~index.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/DB.php",
+		"/C/MAMP/htdocs/php-oop-authentication/register.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/index.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/User.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/register.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/php-checker.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Hash.php",
+		"/C/MAMP/bin/apache/conf/httpd.conf",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/profile.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/test.php",
+		"/C/MAMP/htdocs/php-oop-authentication/classes/User.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/logout.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/core/init.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Token.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Session.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Validate.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Config.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Input.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/README.md",
+		"/C/MAMP/htdocs/php-oop-authentication/classes/Input.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/functions/sanitize.php",
+		"/C/Users/thanh/Desktop/note.txt",
+		"/G/websites/auth/Auth-PHP-OOP-master/classes/Database.php",
+		"/C/Users/thanh/Desktop/chuyen de.txt",
+		"/C/MAMP/htdocs/php-oop-authentication/classes/DB.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/update.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/changepassword.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/includes/errors/404.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/functions.php/sanitize.php",
+		"/C/MAMP/htdocs/php-oop-authentication/index.php",
+		"/C/MAMP/htdocs/php-oop-authentication/login.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Validation.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Redirect.php",
+		"/C/MAMP/htdocs/thanh-php-oop-cms/classes/Cookie.php",
+		"/G/websites/github/cms/thanh-cms/admin/index.php",
+		"/C/MAMP/htdocs/php-login-authen/inc/process-users.php",
+		"/G/websites/github/shopping/index.php",
+		"/G/websites/github/shopping/.htaccess ",
+		"/C/MAMP/htdocs/Shopping/index.php",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/MAMP/htdocs/Shopping/includes/main-header.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/MAMP/htdocs/Shopping/includes/brands-slider.php",
+		"/C/MAMP/htdocs/Shopping/includes/config.php",
+		"/C/MAMP/htdocs/Shopping/admin/include/config.php",
+		"/G/websites/test.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/sqlfile/shopping.sql",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/index.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/my-cart.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/payment-method.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/track-orders.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/includes/myaccount-sidebar.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/my-account.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/login.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/order-history.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/product-details.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/includes/main-header.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/order-details.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/bill-ship-addresses.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/track-order.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/includes/menu-bar.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/category.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/sub-category.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/delivered-orders.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/pending-orders.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/todays-orders.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/insert-product.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/get_subcat.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/manage-products.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/manage-users.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/subcategory.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/user-logs.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/category.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/include/sidebar.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/edit-category.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/change-password.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/include/header.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/index.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/includes/config.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/admin/include/config.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/logout.php",
+		"/C/xampp/htdocs/myblog/test.php",
+		"/C/xampp/htdocs/myblog/post.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/includes/top-header.php",
+		"/C/xampp/htdocs/websites/ShoppingPortalProVersion/shopping/includes/side-menu.php",
+		"/C/xampp/htdocs/marvel/admin/index.php",
+		"/C/xampp/htdocs/marvel/admin/index.html",
+		"/C/xampp/htdocs/marvel/admin/profile.php",
+		"/C/xampp/htdocs/marvel/admin/contact.php",
+		"/C/xampp/htdocs/marvel/admin/add-post.php",
+		"/C/xampp/htdocs/marvel/admin/test-form.php",
+		"/C/xampp/htdocs/marvel/admin/post.php",
+		"/C/xampp/htdocs/marvel/admin/assets/js/validation/validation-form.js",
+		"/C/xampp/htdocs/marvel/admin/inc/header.php",
+		"/C/xampp/htdocs/marvel/admin/inc/footer.php",
+		"/C/xampp/htdocs/marvel/admin/category.php",
+		"/G/jQuery/Validation/validation-bootstrap.3.4.html",
+		"/G/jQuery/Validation/validation-bootstraps.html",
+		"/G/jQuery/Validation/validation.html",
+		"/C/xampp/htdocs/marvel/admin/table.html",
+		"/C/xampp/htdocs/marvel/admin/assets/js/tinymce.js",
+		"/C/Users/thanh/Downloads/jquery-validation-1.15.0/test/index.html",
+		"/C/xampp/htdocs/marvel/admin/classes/Database.php",
+		"/C/xampp/htdocs/marvel/admin/classes/User.php",
+		"/C/xampp/htdocs/marvel/admin/classes/Category.php",
+		"/C/xampp/htdocs/marvel/admin/classes/Post.php",
+		"/C/xampp/htdocs/marvel/admin/aboutus.php",
+		"/C/xampp/htdocs/marvel/admin/title-sologan.php",
+		"/C/xampp/htdocs/marvel/admin/copyright.php",
+		"/C/xampp/htdocs/marvel/admin/inc/sidebar.php",
+		"/C/xampp/htdocs/marvel/admin/functions.php",
+		"/C/xampp/htdocs/marvel/admin/edit-user.php",
+		"/C/xampp/htdocs/marvel/admin/edit-post.php",
+		"/C/xampp/htdocs/marvel/admin/add-user.php",
+		"/C/xampp/htdocs/marvel/admin/user.php",
+		"/C/xampp/htdocs/marvel/admin/change-password.php",
+		"/C/xampp/htdocs/marvel/admin/edit-category.php",
+		"/C/xampp/htdocs/marvel/admin/add-category.php",
+		"/G/Templates/Admin Panel/marvel-free-web-template/admin/assets/css/login.css",
+		"/G/Templates/Admin Panel/marvel-free-web-template/admin/login.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\websites\\ShoppingPortalProVersion"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$_SESSION['cart']",
+			"totalqunty",
+			"qnty",
+			"basket-item-count",
+			"add",
+			"bill-ship-addresses",
+			"action",
+			"btn btn-primary",
+			"\t\t\t\t\t\t\t\t\t\t\t\t\t{",
+			"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+			"Sub Category\n",
+			"\t\t\t\t\t\t\t\t{?>",
+			"\t\t\t\n",
+			"FEATURED PRODUCTS",
+			"())",
+			"\")",
+			"success_message",
+			"success",
+			"                                        \n",
+			"                    ",
+			"                    \n",
+			"                        \n",
+			"tr.odd",
+			"insert",
+			"tbl_category",
+			"tdl_show_all_posts",
+			"post",
+			");\n",
+			"42",
+			"html",
+			"start_form27",
+			"?>\n",
+			" }"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"php"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "xDebug.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "xdebug.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "G:\\websites\\mamp\\thanh-php-oop-cms",
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "G:\\websites\\mamp\\thanh-php-oop-cms",
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "G:\\websites\\mamp\\thanh-php-oop-cms",
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"default_dir": "G:\\websites\\mamp\\thanh-php-oop-cms",
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.7,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 29.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "xdebug.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"26":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"32":
+				{
+					"group": 0,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

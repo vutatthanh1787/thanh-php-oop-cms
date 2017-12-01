@@ -1,13 +1,10 @@
-<?php 
-	// error_reporting(E_ALL);
-	// ini_set('display_errors', 1);
-	ini_set('display_errors', 1);
+<?php
+    @ob_start();
+	session_start();
+    
+    ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
-	/*
-	** Khoi tao session
-	 */
-	session_start();
 	// Tao bien toan cuc
 	
 	$GLOBALS['config'] = array(
@@ -30,6 +27,8 @@
 	spl_autoload_register(function($class){
 		require_once 'classes/' . $class . '.php';
 	});
-
+    // register user
+    /** @var TYPE_NAME $user */
+    $user = new User();
 	require_once 'functions/sanitize.php';
 ?>
