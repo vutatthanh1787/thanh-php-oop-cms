@@ -30,7 +30,7 @@
 //                die();
                 $user_logged = $user->login(Input::get('username'), Input::get('password'));
                 if ($user_logged)
-                    echo 'OK';
+                    Redirect::to('index.php');
                 else
                     echo 'Login false';
             }else{

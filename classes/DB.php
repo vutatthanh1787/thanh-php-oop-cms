@@ -12,38 +12,36 @@
 				$_error = false,
 				$_results,
 				$_count = 0;
-		
-		function __construct()
+
+        /**
+         * DB constructor.
+         */
+        function __construct()
 		{
 			try{
-				//$this->_pdo = new PDO('mysql:host=' . Config::get('mysql/host') .';dbname=' . Config::get('mysql/db'), 
-//                                                            Config::get('mysql/username'), 
-//                                                            Config::get('mysql/password'),
-//                                            					array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'") );
-                $this->_pdo = new PDO('mysql:host=' . Config::get('mysql/host') .';dbname=' . Config::get('mysql/db'), 
-                                                            Config::get('mysql/username'), 
-                                                            Config::get('mysql/password'));
+				$this->_pdo = new PDO('mysql:host=' . Config::get('mysql/host') .';dbname=' . Config::get('mysql/db'),
+                                                            Config::get('mysql/username'),
+                                                            Config::get('mysql/password'),
+                                            					array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'") );
 			} catch(PDOException $msg){
 				die($msg->getMessage());
 			}
 		}
-		/*
-		** Ham getInstance
-		** New khong ton tai bien $_instance
-		** $_instance khoi tao DB
-		** Tra ve $_instance
-		 */
-		public static function getInstance()
+        /**
+         * @return DB|null
+         */
+        public static function getInstance()
 		{
 			if (!isset(self::$_instance)){
 				self::$_instance = new DB();
 			}
 			return self::$_instance;
 		}
-		/*
-		** Ham query
-		 */
-
+        /**
+         * @param $sql
+         * @param array $params
+         * @return $this
+         */
         public function query($sql, $params = array()){
             $this->_error = false;
             if($this->_query = $this->_pdo->prepare($sql)){
@@ -63,6 +61,13 @@
             }
             return $this;
         }
+
+        /**
+         * @param $action
+         * @param $table
+         * @param array $where
+         * @return $this|bool
+         */
         public function action($action, $table, $where = array()){
             if(count($where) === 3){
                 $operators = array('=', '>', '<', '>=', '<=');
@@ -78,7 +83,12 @@
             }
             return false;
         }
-		public function getAll($table){
+
+        /**
+         * @param $table
+         * @return $this
+         */
+        public function getAll($table){
 			$this->_error = false;
 			$sql = "SELECT * FROM {$table}";
 			if ( $this->_query = $this->_pdo->prepare($sql) ){
@@ -92,12 +102,30 @@
 			
 			return $this;
 		}
+
+        /**
+         * @param $table
+         * @param $where
+         * @return bool|DB
+         */
         public function get($table, $where){
             return $this->action('SELECT *', $table, $where);
         }
+
+        /**
+         * @param $table
+         * @param $where
+         * @return bool|DB
+         */
         public function delete($table, $where){
             return $this->action('DELETE', $table, $where);
         }
+
+        /**
+         * @param $table
+         * @param array $fields
+         * @return bool
+         */
         public function insert($table, $fields = array()){
             $keys = array_keys($fields);
             $values = '';
@@ -115,6 +143,13 @@
             }
             return false;
         }
+
+        /**
+         * @param $table
+         * @param $id
+         * @param $fields
+         * @return bool
+         */
         public function update($table, $id, $fields){
             $set = '';
             $x = 1;
@@ -135,19 +170,31 @@
 		/*
 		** Ham tra ve so luong ban ghi
 		 */
-		public function count(){
+        /**
+         * @return int
+         */
+        public function count(){
 			return $this->_count;
 		}
 
-		public function results(){
+        /**
+         * @return mixed
+         */
+        public function results(){
 			return $this->_results;
 		}
 
-		public function first(){
+        /**
+         * @return mixed
+         */
+        public function first(){
 			return $this->results()[0];
 		}
 
-		public function error(){
+        /**
+         * @return bool
+         */
+        public function error(){
 			return $this->_error;
 		}
 

@@ -33,14 +33,12 @@ if (Input::exists()){
         ));
 
         if($validation->passed()){
-            $salt = Hash::salt(32);
             try{
                 $args = array(
                     'user_fullname' => Input::get('user_fullname'),
                     'user_name' => Input::get('user_name'),
-                    'user_password' => Hash::make(Input::get('user_password'), $salt),
+                    'user_password' => md5(Input::get('user_password')),
                     'user_email' => Input::get('user_email'),
-                    'user_salt' => $salt,
                     'user_created' => date('d-m-Y: H:s'),
                     'group_id' => 1
                 );
